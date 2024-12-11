@@ -105,4 +105,17 @@ function typing(){
 
 function changeColor(input) {
     input.style.color = "#E3E3E3"; 
-}
+}  
+
+
+
+
+let ele = document.querySelector('#btn')
+ele.addEventListener('click',function(){
+    userNameInput.value = null
+    userEmailInput.value = null
+    userPasswordInput.value =null
+    checkPasswordInput.value =null
+})
+
+   
